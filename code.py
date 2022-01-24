@@ -95,6 +95,8 @@ try:
   mqtt_client = MQTT.MQTT(
     broker=config.mqtt_broker,
     port=config.mqtt_port,
+    username=config.mqtt_username,
+    password=config.mqtt_password,
     socket_pool=pool,
   )
   mqtt_client.on_message=mqtt_on_message
