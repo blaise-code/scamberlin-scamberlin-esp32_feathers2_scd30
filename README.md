@@ -1,5 +1,7 @@
 # FeatherS2 - ESP32-S2 CO2 monitoring project
 
+Forked from [scamberlin-scamberlin-esp32_feathers2_scd30](https://github.com/scamberlin/scamberlin-scamberlin-esp32_feathers2_scd30) to add MQTT username and password authentication. As currently implementd, will break anonymous/no authentication. Will submit pull request when I have time to make it work both ways. 
+
 This DIY air quality monitor will measure:
 
 * temperature
